@@ -2,7 +2,7 @@
 import os
 import csv
 
-csvpath = ("Resources", "election_data.csv")
+csvpath = os.path.join("Resources", "election_data.csv")
 
 TotalVotes = 0
 AllCandidates = []
